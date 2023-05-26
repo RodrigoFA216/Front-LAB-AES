@@ -1,3 +1,5 @@
 export async function GET(request) {
-    return new Response('Subiendo archivo')
+    return new Response(JSON.stringify({
+        message: 'Subiendo archivo'
+    }))
 }

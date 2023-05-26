@@ -17,13 +17,10 @@ function Hide() {
                     onSubmit={async (e) => {
                         e.preventDefault();
                         if (!file) return;
-                        else console.log(file)
-                        // const res = await fetch('/api/upload')
-                        // console.log(res)
                     }}
                 >
                     <label>
-                        Subir archivo
+                        Selecciona un archivo de tu dispositivo
                     </label>
                     <br></br>
                     <input type='file'
